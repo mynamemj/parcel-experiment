@@ -10,14 +10,17 @@
     "autoprefixer": "^9.5.1",
     "postcss-modules": "^1.4.1",
     "react": "^16.8.6",
-    "react-dom": "^16.8.6"
+    "react-dom": "^16.8.6",
+    "typography": "^0.16.19"
   },
   "devDependencies": {
     "babel-preset-env": "^1.7.0",
     "babel-preset-react": "^6.24.1",
+    "cssnano": "^4.1.10",
     "sass": "^1.18.0"
   },
   "scripts": {
-    "start": "parcel index.html"
+    "start": "parcel index.html",
+    "build": "parcel build index.html -d build --public-url ./"
   }
 }
